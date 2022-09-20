@@ -1,0 +1,1 @@
+{"cqy_test_20211108": "ft_tag_gender,ft_tag_province,ft_tag_city,ft_asset_score_c_rule,ft_tag_p2p,ft_stable_score_a_rule,ft_stable_score_b_rule,ft_stable_score_c_rule,ft_stable_score_d_rule,ft_stable_score_e_rule,ft_stable_score_f_rule"}

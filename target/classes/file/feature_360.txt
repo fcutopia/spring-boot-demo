@@ -1,0 +1,15 @@
+ft_tag_bourgeois
+ft_tag_primary_purchaser
+ft_tag_industry_it
+ft_tag_industry_financial
+ft_tag_industry_ad
+ft_tag_occupation_it
+ft_tag_occupation_teacher
+ft_tag_occupation_entrepreneur
+ft_tag_occupation_medical
+ft_tag_bookkeeping
+ft_tag_bas_fraudster
+ft_gz_grey_list
+ft_app_newins_1week_has_installment_loan
+ft_app_newins_4week_has_installment_loan
+ft_app_act_30d_micro_loan_days_m_rate

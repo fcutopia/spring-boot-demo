@@ -1,0 +1,4 @@
+id,short_name,name,remark,parent_id,type_name,type_id
+1,,大型汽车号牌,1.00,,号牌种类,1
+2,,小型汽车号牌,2.00,,号牌种类,1
+3,,使馆汽车号牌,3.50,,号牌种类,1

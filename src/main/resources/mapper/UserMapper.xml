@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fc.springboot.dao.UserMapper">
+
+    <select id="findAll" resultType="com.fc.springboot.bean.bo.Users">
+        SELECT *
+        FROM tb_user
+    </select>
+
+    <insert id="create" parameterType="com.fc.springboot.bean.bo.Users">
+        INSERT INTO tb_user(user_name, pass_word, role, create_time, update_time)
+        VALUES (#{userName}, #{passWord}, #{role}, #{createTime}, #{updateTime});
+    </insert>
+
+    <select id="selectPageVo"  resultType="com.fc.springboot.bean.bo.Users">
+        SELECT *
+        FROM tb_user
+        WHERE role = #{users.role}
+    </select>
+
+
+</mapper>

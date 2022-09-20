@@ -1,0 +1,713 @@
+  <configuration>
+    
+    <property>
+      <name>dfs.block.access.token.enable</name>
+      <value>true</value>
+    </property>
+    
+    <property>
+      <name>dfs.blockreport.initialDelay</name>
+      <value>120</value>
+    </property>
+    
+    <property>
+      <name>dfs.blocksize</name>
+      <value>134217728</value>
+    </property>
+    
+    <property>
+      <name>dfs.client.failover.proxy.provider.getui-bi-calc</name>
+      <value>org.apache.hadoop.hdfs.server.namenode.ha.ConfiguredFailoverProxyProvider</value>
+    </property>
+    
+    <property>
+      <name>dfs.client.failover.proxy.provider.getui-bi-ds</name>
+      <value>org.apache.hadoop.hdfs.server.namenode.ha.ConfiguredFailoverProxyProvider</value>
+    </property>
+    
+    <property>
+      <name>dfs.client.failover.proxy.provider.getui-bi-hbasea</name>
+      <value>org.apache.hadoop.hdfs.server.namenode.ha.ConfiguredFailoverProxyProvider</value>
+    </property>
+    
+    <property>
+      <name>dfs.client.failover.proxy.provider.getui-bi-open</name>
+      <value>org.apache.hadoop.hdfs.server.namenode.ha.ConfiguredFailoverProxyProvider</value>
+    </property>
+    
+    <property>
+      <name>dfs.client.failover.proxy.provider.getui-bi-storage</name>
+      <value>org.apache.hadoop.hdfs.server.namenode.ha.ConfiguredFailoverProxyProvider</value>
+    </property>
+    
+    <property>
+      <name>dfs.client.failover.proxy.provider.getui-bi-storageb</name>
+      <value>org.apache.hadoop.hdfs.server.namenode.ha.ConfiguredFailoverProxyProvider</value>
+    </property>
+    
+    <property>
+      <name>dfs.client.failover.proxy.provider.getui-bi-storagec</name>
+      <value>org.apache.hadoop.hdfs.server.namenode.ha.ConfiguredFailoverProxyProvider</value>
+    </property>
+    
+    <property>
+      <name>dfs.client.failover.proxy.provider.hzxs-bi-hadoop-ds</name>
+      <value>org.apache.hadoop.hdfs.server.namenode.ha.ConfiguredFailoverProxyProvider</value>
+    </property>
+    
+    <property>
+      <name>dfs.client.failover.proxy.provider.hzxs-bi-hadoop-hbaseb</name>
+      <value>org.apache.hadoop.hdfs.server.namenode.ha.ConfiguredFailoverProxyProvider</value>
+    </property>
+    
+    <property>
+      <name>dfs.client.failover.proxy.provider.hzxs-bi-hadoop-hbasec</name>
+      <value>org.apache.hadoop.hdfs.server.namenode.ha.ConfiguredFailoverProxyProvider</value>
+    </property>
+    
+    <property>
+      <name>dfs.client.failover.proxy.provider.hzxs-bi-hadoop-open</name>
+      <value>org.apache.hadoop.hdfs.server.namenode.ha.ConfiguredFailoverProxyProvider</value>
+    </property>
+    
+    <property>
+      <name>dfs.client.failover.proxy.provider.hzxs-bi-hadoop-storagea</name>
+      <value>org.apache.hadoop.hdfs.server.namenode.ha.ConfiguredFailoverProxyProvider</value>
+    </property>
+    
+    <property>
+      <name>dfs.client.failover.proxy.provider.hzxs-bi-hadoop-storageb</name>
+      <value>org.apache.hadoop.hdfs.server.namenode.ha.ConfiguredFailoverProxyProvider</value>
+    </property>
+    
+    <property>
+      <name>dfs.client.failover.proxy.provider.hzxs-yzx-hadoop-ds</name>
+      <value>org.apache.hadoop.hdfs.server.namenode.ha.ConfiguredFailoverProxyProvider</value>
+    </property>
+    
+    <property>
+      <name>dfs.client.failover.proxy.provider.hzxs-yzx-hadoop-hbasea</name>
+      <value>org.apache.hadoop.hdfs.server.namenode.ha.ConfiguredFailoverProxyProvider</value>
+    </property>
+    
+    <property>
+      <name>dfs.client.failover.proxy.provider.hzxs-yzx-hadoop-hbaseb</name>
+      <value>org.apache.hadoop.hdfs.server.namenode.ha.ConfiguredFailoverProxyProvider</value>
+    </property>
+    
+    <property>
+      <name>dfs.client.failover.proxy.provider.hzxs-yzx-hadoop-hbasec</name>
+      <value>org.apache.hadoop.hdfs.server.namenode.ha.ConfiguredFailoverProxyProvider</value>
+    </property>
+    
+    <property>
+      <name>dfs.client.failover.proxy.provider.jswx-b2d-hadoop-openb</name>
+      <value>org.apache.hadoop.hdfs.server.namenode.ha.ConfiguredFailoverProxyProvider</value>
+    </property>
+    
+    <property>
+      <name>dfs.client.read.shortcircuit</name>
+      <value>true</value>
+    </property>
+    
+    <property>
+      <name>dfs.client.read.shortcircuit.streams.cache.size</name>
+      <value>4096</value>
+    </property>
+    
+    <property>
+      <name>dfs.client.retry.policy.enabled</name>
+      <value>false</value>
+    </property>
+    
+    <property>
+      <name>dfs.cluster.administrators</name>
+      <value> hdfs</value>
+    </property>
+    
+    <property>
+      <name>dfs.content-summary.limit</name>
+      <value>5000</value>
+    </property>
+    
+    <property>
+      <name>dfs.datanode.address</name>
+      <value>0.0.0.0:50010</value>
+    </property>
+    
+    <property>
+      <name>dfs.datanode.available-space-volume-choosing-policy.balanced-space-threshold</name>
+      <value>107374182400</value>
+    </property>
+    
+    <property>
+      <name>dfs.datanode.balance.bandwidthPerSec</name>
+      <value>6250000</value>
+    </property>
+    
+    <property>
+      <name>dfs.datanode.balance.max.concurrent.moves</name>
+      <value>50</value>
+    </property>
+    
+    <property>
+      <name>dfs.datanode.data.dir</name>
+      <value>/datab/dfs/dn,/datac/dfs/dn,/datad/dfs/dn,/datae/dfs/dn,/dataf/dfs/dn,/datag/dfs/dn,/datah/dfs/dn,/datai/dfs/dn,/dataj/dfs/dn,/datak/dfs/dn,/datal/dfs/dn,/datam/dfs/dn</value>
+      <final>true</final>
+    </property>
+    
+    <property>
+      <name>dfs.datanode.data.dir.perm</name>
+      <value>750</value>
+    </property>
+    
+    <property>
+      <name>dfs.datanode.du.reserved</name>
+      <value>147073507328</value>
+    </property>
+    
+    <property>
+      <name>dfs.datanode.failed.volumes.tolerated</name>
+      <value>2</value>
+      <final>true</final>
+    </property>
+    
+    <property>
+      <name>dfs.datanode.fsdataset.volume.choosing.policy</name>
+      <value>org.apache.hadoop.hdfs.server.datanode.fsdataset.AvailableSpaceVolumeChoosingPolicy</value>
+    </property>
+    
+    <property>
+      <name>dfs.datanode.http.address</name>
+      <value>0.0.0.0:50075</value>
+    </property>
+    
+    <property>
+      <name>dfs.datanode.https.address</name>
+      <value>0.0.0.0:50475</value>
+    </property>
+    
+    <property>
+      <name>dfs.datanode.ipc.address</name>
+      <value>0.0.0.0:8010</value>
+    </property>
+    
+    <property>
+      <name>dfs.datanode.max.transfer.threads</name>
+      <value>4096</value>
+    </property>
+    
+    <property>
+      <name>dfs.domain.socket.path</name>
+      <value>/var/lib/hadoop-hdfs/dn_socket</value>
+    </property>
+    
+    <property>
+      <name>dfs.encrypt.data.transfer.cipher.suites</name>
+      <value>AES/CTR/NoPadding</value>
+    </property>
+    
+    <property>
+      <name>dfs.ha.automatic-failover.enabled</name>
+      <value>true</value>
+    </property>
+    
+    <property>
+      <name>dfs.ha.fencing.methods</name>
+      <value>shell(/bin/true)</value>
+    </property>
+    
+    <property>
+      <name>dfs.ha.namenodes.getui-bi-calc</name>
+      <value>namenode944,namenode2591</value>
+    </property>
+    
+    <property>
+      <name>dfs.ha.namenodes.getui-bi-ds</name>
+      <value>nn1,nn2</value>
+    </property>
+    
+    <property>
+      <name>dfs.ha.namenodes.getui-bi-hbasea</name>
+      <value>nn1,nn2</value>
+    </property>
+    
+    <property>
+      <name>dfs.ha.namenodes.getui-bi-open</name>
+      <value>nn1,nn2</value>
+    </property>
+    
+    <property>
+      <name>dfs.ha.namenodes.getui-bi-storage</name>
+      <value>namenode70,namenode72</value>
+    </property>
+    
+    <property>
+      <name>dfs.ha.namenodes.getui-bi-storageb</name>
+      <value>nn1,nn2</value>
+    </property>
+    
+    <property>
+      <name>dfs.ha.namenodes.getui-bi-storagec</name>
+      <value>nn1,nn2</value>
+    </property>
+    
+    <property>
+      <name>dfs.ha.namenodes.hzxs-bi-hadoop-ds</name>
+      <value>nn1,nn2</value>
+    </property>
+    
+    <property>
+      <name>dfs.ha.namenodes.hzxs-bi-hadoop-hbaseb</name>
+      <value>nn1,nn2</value>
+    </property>
+    
+    <property>
+      <name>dfs.ha.namenodes.hzxs-bi-hadoop-hbasec</name>
+      <value>nn1,nn2</value>
+    </property>
+    
+    <property>
+      <name>dfs.ha.namenodes.hzxs-bi-hadoop-open</name>
+      <value>nn1,nn2</value>
+    </property>
+    
+    <property>
+      <name>dfs.ha.namenodes.hzxs-bi-hadoop-storagea</name>
+      <value>nn1,nn2</value>
+    </property>
+    
+    <property>
+      <name>dfs.ha.namenodes.hzxs-bi-hadoop-storageb</name>
+      <value>nn1,nn2</value>
+    </property>
+    
+    <property>
+      <name>dfs.ha.namenodes.hzxs-yzx-hadoop-ds</name>
+      <value>nn1,nn2</value>
+    </property>
+    
+    <property>
+      <name>dfs.ha.namenodes.hzxs-yzx-hadoop-hbasea</name>
+      <value>nn1,nn2</value>
+    </property>
+    
+    <property>
+      <name>dfs.ha.namenodes.hzxs-yzx-hadoop-hbaseb</name>
+      <value>nn1,nn2</value>
+    </property>
+    
+    <property>
+      <name>dfs.ha.namenodes.hzxs-yzx-hadoop-hbasec</name>
+      <value>nn1,nn2</value>
+    </property>
+    
+    <property>
+      <name>dfs.ha.namenodes.jswx-b2d-hadoop-openb</name>
+      <value>nn1,nn2</value>
+    </property>
+    
+    <property>
+      <name>dfs.heartbeat.interval</name>
+      <value>3</value>
+    </property>
+    
+    <property>
+      <name>dfs.hosts.exclude</name>
+      <value>/etc/hadoop/conf/dfs.exclude</value>
+    </property>
+    
+    <property>
+      <name>dfs.http.policy</name>
+      <value>HTTP_ONLY</value>
+    </property>
+    
+    <property>
+      <name>dfs.https.port</name>
+      <value>50470</value>
+    </property>
+    
+    <property>
+      <name>dfs.internal.nameservices</name>
+      <value>hzxs-yzx-hadoop-ds</value>
+    </property>
+    
+    <property>
+      <name>dfs.journalnode.edits.dir</name>
+      <value>/app/dfs/jn</value>
+    </property>
+    
+    <property>
+      <name>dfs.journalnode.http-address</name>
+      <value>0.0.0.0:8480</value>
+    </property>
+    
+    <property>
+      <name>dfs.journalnode.https-address</name>
+      <value>0.0.0.0:8481</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.accesstime.precision</name>
+      <value>86400000</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.audit.log.async</name>
+      <value>true</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.avoid.read.stale.datanode</name>
+      <value>true</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.avoid.write.stale.datanode</name>
+      <value>true</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.checkpoint.dir</name>
+      <value>/app/dfs/sn</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.checkpoint.edits.dir</name>
+      <value>${dfs.namenode.checkpoint.dir}</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.checkpoint.period</name>
+      <value>21600</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.checkpoint.txns</name>
+      <value>1000000</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.fslock.fair</name>
+      <value>false</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.handler.count</name>
+      <value>800</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.http-address.hzxs-yzx-hadoop-ds.nn1</name>
+      <value>hzxs-yzx-hadoop-ds1:50070</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.http-address.hzxs-yzx-hadoop-ds.nn2</name>
+      <value>hzxs-yzx-hadoop-ds2:50070</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.https-address.hzxs-yzx-hadoop-ds.nn1</name>
+      <value>hzxs-yzx-hadoop-ds1:50470</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.https-address.hzxs-yzx-hadoop-ds.nn2</name>
+      <value>hzxs-yzx-hadoop-ds2:50470</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.inode.attributes.provider.class</name>
+      <value>org.apache.ranger.authorization.hadoop.RangerHdfsAuthorizer</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.name.dir</name>
+      <value>/app/dfs/nn</value>
+      <final>true</final>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.name.dir.restore</name>
+      <value>true</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.rpc-address.getui-bi-calc.namenode2591</name>
+      <value>bi-lc-53:8020</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.rpc-address.getui-bi-calc.namenode944</name>
+      <value>R620ip208:8020</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.rpc-address.getui-bi-ds.nn1</name>
+      <value>bi-hadoop-ds1:8020</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.rpc-address.getui-bi-ds.nn2</name>
+      <value>bi-hadoop-ds6:8020</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.rpc-address.getui-bi-hbasea.nn1</name>
+      <value>bi-hadoop-hbasea2:8020</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.rpc-address.getui-bi-hbasea.nn2</name>
+      <value>bi-hadoop-hbasea5:8020</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.rpc-address.getui-bi-open.nn1</name>
+      <value>bi-lc-445:8020</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.rpc-address.getui-bi-open.nn2</name>
+      <value>bi-lc-446:8020</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.rpc-address.getui-bi-storage.namenode70</name>
+      <value>bi-lc-201:8020</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.rpc-address.getui-bi-storage.namenode72</name>
+      <value>bi-lc-202:8020</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.rpc-address.getui-bi-storageb.nn1</name>
+      <value>bi-hadoop-storageb1:8020</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.rpc-address.getui-bi-storageb.nn2</name>
+      <value>bi-hadoop-storageb2:8020</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.rpc-address.getui-bi-storagec.nn1</name>
+      <value>xs-bi-hadoop-storagec19:8020</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.rpc-address.getui-bi-storagec.nn2</name>
+      <value>xs-bi-hadoop-storagec20:8020</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.rpc-address.hzxs-bi-hadoop-ds.nn1</name>
+      <value>hzxs-bi-hadoop-ds1:8020</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.rpc-address.hzxs-bi-hadoop-ds.nn2</name>
+      <value>hzxs-bi-hadoop-ds2:8020</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.rpc-address.hzxs-bi-hadoop-hbaseb.nn1</name>
+      <value>xs-bi-hadoop-hbaseb1:8020</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.rpc-address.hzxs-bi-hadoop-hbaseb.nn2</name>
+      <value>xs-bi-hadoop-hbaseb2:8020</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.rpc-address.hzxs-bi-hadoop-hbasec.nn1</name>
+      <value>hzxs-bi-hadoop-hbasec1:8020</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.rpc-address.hzxs-bi-hadoop-hbasec.nn2</name>
+      <value>hzxs-bi-hadoop-hbasec2:8020</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.rpc-address.hzxs-bi-hadoop-open.nn1</name>
+      <value>hzxs-bi-hadoop-open1:8020</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.rpc-address.hzxs-bi-hadoop-open.nn2</name>
+      <value>hzxs-bi-hadoop-open2:8020</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.rpc-address.hzxs-bi-hadoop-storagea.nn1</name>
+      <value>hzxs-bi-hadoop-storagea1:8020</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.rpc-address.hzxs-bi-hadoop-storagea.nn2</name>
+      <value>hzxs-bi-hadoop-storagea2:8020</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.rpc-address.hzxs-bi-hadoop-storageb.nn1</name>
+      <value>hzxs-bi-hadoop-storageb1:8020</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.rpc-address.hzxs-bi-hadoop-storageb.nn2</name>
+      <value>hzxs-bi-hadoop-storageb2:8020</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.rpc-address.hzxs-yzx-hadoop-ds.nn1</name>
+      <value>hzxs-yzx-hadoop-ds1:8020</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.rpc-address.hzxs-yzx-hadoop-ds.nn2</name>
+      <value>hzxs-yzx-hadoop-ds2:8020</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.rpc-address.hzxs-yzx-hadoop-hbasea.nn1</name>
+      <value>hzxs-yzx-hadoop-hbasea1:8020</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.rpc-address.hzxs-yzx-hadoop-hbasea.nn2</name>
+      <value>hzxs-yzx-hadoop-hbasea2:8020</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.rpc-address.hzxs-yzx-hadoop-hbaseb.nn1</name>
+      <value>hzxs-yzx-hadoop-hbaseb14:8020</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.rpc-address.hzxs-yzx-hadoop-hbaseb.nn2</name>
+      <value>hzxs-yzx-hadoop-hbaseb12:8020</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.rpc-address.hzxs-yzx-hadoop-hbasec.nn1</name>
+      <value>hzxs-yzx-hadoop-hbasec1:8020</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.rpc-address.hzxs-yzx-hadoop-hbasec.nn2</name>
+      <value>hzxs-yzx-hadoop-hbasec2:8020</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.rpc-address.jswx-b2d-hadoop-openb.nn1</name>
+      <value>jswx-b2d-hadoop-openb1:8020</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.rpc-address.jswx-b2d-hadoop-openb.nn2</name>
+      <value>jswx-b2d-hadoop-openb2:8020</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.safemode.threshold-pct</name>
+      <value>0.99</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.servicerpc-address.getui-bi-calc.namenode2591</name>
+      <value>bi-lc-53:8022</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.servicerpc-address.getui-bi-calc.namenode944</name>
+      <value>R620ip208:8022</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.servicerpc-address.getui-bi-storage.namenode70</name>
+      <value>bi-lc-201:8022</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.servicerpc-address.getui-bi-storage.namenode72</name>
+      <value>bi-lc-202:8022</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.shared.edits.dir</name>
+      <value>qjournal://hzxs-yzx-hadoop-ds3:8485;hzxs-yzx-hadoop-ds1:8485;hzxs-yzx-hadoop-ds2:8485/hzxs-yzx-hadoop-ds</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.stale.datanode.interval</name>
+      <value>30000</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.startup.delay.block.deletion.sec</name>
+      <value>3600</value>
+    </property>
+    
+    <property>
+      <name>dfs.namenode.write.stale.datanode.ratio</name>
+      <value>1.0f</value>
+    </property>
+    
+    <property>
+      <name>dfs.nameservices</name>
+      <value>hzxs-yzx-hadoop-ds,getui-bi-open,getui-bi-calc,getui-bi-storage,getui-bi-storageb,getui-bi-ds,getui-bi-hbasea,getui-bi-storagec,hzxs-bi-hadoop-hbaseb,hzxs-bi-hadoop-hbasec,hzxs-yzx-hadoop-hbasea,hzxs-bi-hadoop-ds,hzxs-bi-hadoop-open,jswx-b2d-hadoop-openb,hzxs-yzx-hadoop-hbaseb,hzxs-bi-hadoop-storagea,hzxs-bi-hadoop-storageb,hzxs-yzx-hadoop-hbasec</value>
+    </property>
+    
+    <property>
+      <name>dfs.permissions.enabled</name>
+      <value>true</value>
+    </property>
+    
+    <property>
+      <name>dfs.permissions.superusergroup</name>
+      <value>hdfs</value>
+    </property>
+    
+    <property>
+      <name>dfs.replication</name>
+      <value>3</value>
+    </property>
+    
+    <property>
+      <name>dfs.replication.max</name>
+      <value>50</value>
+    </property>
+    
+    <property>
+      <name>dfs.support.append</name>
+      <value>true</value>
+      <final>true</final>
+    </property>
+    
+    <property>
+      <name>dfs.webhdfs.enabled</name>
+      <value>false</value>
+      <final>true</final>
+    </property>
+    
+    <property>
+      <name>fs.permissions.umask-mode</name>
+      <value>022</value>
+    </property>
+    
+    <property>
+      <name>nfs.exports.allowed.hosts</name>
+      <value>* rw</value>
+    </property>
+    
+    <property>
+      <name>nfs.file.dump.dir</name>
+      <value>/tmp/.hdfs-nfs</value>
+    </property>
+    
+  </configuration>
